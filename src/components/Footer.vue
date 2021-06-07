@@ -1,5 +1,5 @@
 <template>
- <p class="text-center display-1 footer">developed by samwel mchomvu | from NOTTECH lab</p>
+ <p class="text-center display-1 footer">&copy;2021||developed by samwel mchomvu | from NOTTECH lab</p>
 </template>
 
 <style scoped>

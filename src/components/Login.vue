@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-content>
+    <v-main>
       <v-container class="fill-height" fluid>
         <v-row align="center" justify="center">
           <v-col cols="12" sm="8" md="8"> 
@@ -41,7 +41,7 @@
                           prepend-icon="mdi-lock"
                           />
                           </v-form>
-                          <h4 class="text-center mt-3">Forgot your password?</h4>
+                          <h4 class="text-center mt-3 red--text">Forgot your password?</h4>
                           <div class="text-center mt-3">
                           <v-btn rounded color="primary">Login</v-btn>
                         </div>
@@ -64,8 +64,8 @@
                        <v-card-text class="white--text mt-12">
                          <h1 class="text-center display-1">Welcome Back!</h1>
                          <h5 class="text-center">To keep intouch with us please login</h5>
-                          <div class="text-center">
-                            <v-btn rounded outlined primary @click="step--">Login</v-btn>
+                          <div class="text-center mt-4">
+                            <v-btn class="white--text" rounded outlined primary @click="step--">Login</v-btn>
                        </div>
                        </v-card-text>
                      </v-col>
@@ -122,7 +122,7 @@
           </v-col>
         </v-row>
       </v-container>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 
@@ -136,3 +136,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.rangi{
+  color: #fff;
+}
+</style>

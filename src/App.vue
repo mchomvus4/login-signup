@@ -1,11 +1,11 @@
 <template>
   <v-app>
-   <v-content>
+   <v-main>
      <v-router-view>
-       <Login></Login>
-       <Footer></Footer>
+       <Login/>
+       <Footer/>
      </v-router-view>
-   </v-content>
+   </v-main>
   </v-app>
 </template>
 
@@ -17,7 +17,7 @@ export default {
 
   name: 'home',
   components:{
-   Login,
+  Login,
   Footer
   },
 
